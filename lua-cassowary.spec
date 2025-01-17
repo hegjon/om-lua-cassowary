@@ -1,3 +1,6 @@
+%define lua_version %(lua -e 'print(_VERSION)' | cut -d ' ' -f 2)
+%define lua_pkgdir %{_libdir}/lua/%{lua_version}
+
 %global forgeurl https://github.com/sile-typesetter/cassowary.lua
 %global tag v%{version}
 
