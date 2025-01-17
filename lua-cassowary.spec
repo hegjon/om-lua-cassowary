@@ -8,6 +8,7 @@ Name:      lua-cassowary
 Version:   2.3.2
 Release:   1
 Summary:   The cassowary constraint solver
+Group:     Development/Other
 License:   Apache-2.0
 URL:       %{forgeurl}
 
